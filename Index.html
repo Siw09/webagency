@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="WebAgency. Nous sommes une agence web, nous créons des sites web, nous nous occupons du référencement, du design, des réseaux sociaux"/>
+ 
+	 
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/style.css">  	<!-- ceci est utulisé pour l'intégrtion des icones  -->
+	<link rel="stylesheet" type="text/css" href="css/styl.css"> 	<!-- pour la miese en forme de la page  -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebAgency </title>
+	
+</head>
+<body>
+	<header>
+        <div id="logoWebagency">
+            <a href="#slider"><img src="images/logo.png" alt="logo_webagency"></a>
+        </div>
+        <nav>
+            <input type="checkbox" id="nav"/><label for="nav"></label>
+            <ul>
+                <li><a href="#slider">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+
+	<div id="slider">
+        <div id="one" class="slide">
+            <div class="headerSlide"></div>
+            <div class="bodySlide">
+                <nav>
+                    <a class="prev" href="#two"><span class="icon-chevron-left"></span></a>
+                    <a class="next" href="#two"><span class="icon-chevron-right"></span></a>
+                </nav>
+                <div class="textSlide">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- intégration de la banière   -->
+        <div id="two" class="slide">
+            <div class="headerSlide"></div>
+            <div class="bodySlide">
+                <nav>
+                    <a class="prev" href="#one"><span class="icon-chevron-left"></span></a>
+                    <a class="next" href="#one"><span class="icon-chevron-right"></span></a>
+                </nav>
+                <div class="textSlide">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Découvrez ici nos services ainsi que nos dernières réalisations</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section servie  -->
+
+    <section id="services">
+		<div id="conteneurServices">
+			<div class="sectionHeader">
+				<h2>NOS SERVICES</h2>
+                <hr>
+                <p>WebAgency crée et développe votre projet en alliant <strong>design et solutions techniques</strong>.<br>Nous vous proposons <strong>des solutions sur-mesure</strong> qui s'adaptent spécifiquement à vos projets.</p>
+			</div>
+            <div id="servicesBody">
+                <div>
+                    <img src="images/main-feature.png" alt="écran d'ordinateur">
+                </div>
+                <div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+						    <p><span class="icon-line-chart"></span></p>
+                        </div>
+                        <div class="servicesText">
+                            <h3>UX design</h3>
+                            <p>Nous privilégions une approche <strong>centrée sur l'utilisateur</strong>. Nous étudions avec vous vos projets pour cibler vos besoins et les rendre accessibles, ergonomiques, et adaptatifs (<strong>Responsive Web Design</strong>), afin d'affirmer votre présence sur tous les supports (ordinateur, tablette, smartphone).</p>
+                        </div>
+                    </div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+		    				<p><span class="icon-cubes"></span></p>
+                        </div>
+                        <div class="servicesText">
+                            <h3>UI design</h3>
+                            <p>Nous créons <strong>l'identité visuelle</strong> de vos projets sur-mesure. Nous mettons en place selon vos souhaits une charte graphique pratique et intuitive de qualité, dans l'esprit de votre entreprise. </p>
+                        </div>
+                    </div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+                            <p><span class="icon-pie-chart"></span></p>
+                        </div>
+    					<div class="servicesText">
+                            <h3>SEO</h3>
+                            <p>Nous optimisons <strong>la visibilité</strong> de votre site auprès des internautes sur les recherches en rapport avec vos produits et services par <strong>le référencement naturel</strong>. Vous serez populaire !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>	
+	</section>
+<!-- section projets -->
+	<section id="projets">
+		<div class="sectionHeader">
+			<h2>NOS PROJETS</h2>
+            <hr>
+			<p>Parcourez quelques exemples de nos dernières réalisations, découvrez nos expertises.<br>Rejoignez-nous et faites partie de notre portfolio !</p>
+		</div>
+		<nav>
+			<ul>
+				<li id="all_works">All Works</li>
+				<li id="creative">Creative</li>
+				<li id="corporate">Corporate</li>
+				<li id="portfolio">Portfolio</li>
+			</ul>
+		</nav>
+		<div class="projetsAlbum">
+            <figure>
+                <img src="images/portfolio/01.jpg" alt="projet_Creative_item1">
+                <figcaption class="portfolio">
+                    <p>Creative</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/02.jpg" alt="projet_Creative_item2">
+                <figcaption  class="portfolio">
+                    <p>Creative</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/03.jpg" alt="projet_Creative_item3">
+                <figcaption  class="portfolio">
+                    <p>Creative</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/04.jpg" alt="projet_Corporate_item1">
+                <figcaption  class="portfolio">
+                    <p>Corporate</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/05.jpg" alt="projet_Corporate_item2">
+                <figcaption  class="portfolio">
+                    <p>Corporate</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/06.jpg" alt="projet_Portfolio_item1">
+                <figcaption  class="portfolio">
+                    <p>Portfolio</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/07.jpg" alt="projet_Portfolio_item2">
+                <figcaption  class="portfolio">
+                    <p>Portfolio</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/08.jpg" alt="projet_Portfolio_item3">
+                <figcaption  class="portfolio">
+                    <p>Portfolio</p>
+                    <div>
+                        <p><span class="icon-eye"></span></p>
+                    </div>
+                </figcaption>
+            </figure>
+		</div>
+	</section>
+    <!-- intégration de la carte et du formulaire  -->
+
+	<section id="contact">
+        <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1982.587164392295!2d2.409939!3d6.371481!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102355ba954a047f%3A0x587e2e393d5ff8a4!2sPlace%20de%20I&#39;Etoile%20Rouge!5e0!3m2!1sfr!2sbj!4v1645110637591!5m2!1sfr!2sbj" width="600" height="450" allowfullscreen></iframe>
+        <div id="conteneurContact">
+             <form>
+                <h2>Nous Contacter</h2>
+                <p><span>WebAgency SAS</span><br>RN 3, Cotonou Proximité place de l'Étoile Rouge <br>Tél : 00229 909 009 10 </p>
+                <input type="text" name="name" placeholder="Nom"/>
+                <input type="text" name="email" placeholder="E-mail" />
+                <input type="text" name="subject"  placeholder="Sujet"/>
+                <textarea name="message" placeholder="Message"></textarea>
+                <p><a href="#" class="bouton" title="Envoyer votre message">Envoyer</a></p>
+            </form>  
+        </div>
+	</section>
+</body>
+</html>
